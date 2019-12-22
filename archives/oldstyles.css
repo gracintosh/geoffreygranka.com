@@ -1,0 +1,73 @@
+/* General CSS Stuff */
+
+body {
+    background-color: /*#FAEBD7*/#b4cfb0;
+}
+
+h1 {
+    color:tomato;
+    border:2px solid Tomato;
+    background:powderblue;
+    font-family:verdana, sans-serif;
+}
+
+h4 {
+    color:maroon;
+    font-family:sans-serif;
+}
+
+h5 {
+    color:teal;
+    font-family:sans-serif;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:active {
+    color: red;
+}
+
+/*This is the Navigation Header part. */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+ /* display: run-in; */
+  color: white;
+  text-align: center;
+  padding: 0px 6px;
+  text-decoration: underline;
+}
+
+li a:hover {
+  color: Olive;
+}
+
+/*This part makes the appropriate link bold depending on what page you're on. */
+
+.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/*This is to try and contain the icons etc. at the bottom of the page*/
+
+.align-left{ float: left;width:50%; }
+.align-center{ float: right;width:3%; }
+.align-right { float: right;width:47%; }
